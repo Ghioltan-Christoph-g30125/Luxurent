@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montagu Slab', serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: azure;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.bs1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 20px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+h1 {
+    font-size: 35px !important;
+    font-weight: bold !important;
+    color: navy !important;
+}
+
+h2 {
+    font-size: 45px !important;
+    font-weight: bold !important;
+    color: navy !important;
+}
+
+p {
+    margin: 5px !important;
+    padding: 0;
+}
+
+.btn1 {
+    box-shadow: none !important;
+    background-color: navy !important;
+    color: whitesmoke !important;
+    border: 5px solid navy !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    outline: none !important;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+}
+
+.header {
+    padding: 5px;
+}
+
+.header .ant-btn {
+    box-shadow: none !important;
+    background-color: white !important;
+    color: navy !important;
+    border: 2px solid navy !important;
+    padding: 5px 15px !important;
+    outline: none !important;
+}
+
+.content {
+    min-height: 90vh;
+}
+
+.login {
+    background-color: black !important;
+    min-height: 97vh !important;
+    min-width: 0vh !important;
+    padding-top: 50px !important;
+}
+
+.login label,
+.login h1 {
+    font-weight: 100 !important;
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+.login-form {
+    background-color: #1F1F1F !important;
+}
+
+.login-form input {
+    background-color: #333333 !important;
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+.login-logo {
+    position: absolute;
+    left: 6%;
+    right: 0;
+    top: 54%;
+    font-size: 45px;
+    opacity: 0.7 !important;
+}
+
+.register-logo {
+    position: absolute;
+    left: 0;
+    right: 6%;
+    top: 54%;
+    font-size: 45px;
+    opacity: 0.7 !important;
+}
+
+.img-wallpaper {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* UI looking better purpose */
+
+.carimg {
+    height: 180px;
+    width: 270px;
+    /* 100% sa faca pozele fain dar daca 
+                    micsorez ecranu se vad naspa */
+    border-radius: 5px;
+    transform: translateY(-50px);
+}
+
+.car-content {
+    transform: translateY(-200px);
+    opacity: 0;
+}
+
+.car {
+    border-radius: 5px;
+    margin-top: 100px;
+    height: 180px;
+    transition: 0.3s;
+}
+
+.car:hover {
+    height: 220px;
+}
+
+.car:hover>.car-content {
+    opacity: 1;
+    transform: translateY(-40px);
+    transition: 0.3s;
+}
+
+.carimg2 {
+    height: 400px;
+    border-radius: 10px;
+    width: auto;
+}
+
+svg {
+    height: 20px !important;
+    width: 20px !important;
+}
